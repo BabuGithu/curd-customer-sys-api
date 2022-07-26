@@ -1,0 +1,32 @@
+{
+  "configs": [
+    "curd-customer.xml",
+    "global-error-handler.xml",
+    "common.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:curd-customer-sys-api:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "common.xml",
+        "curd-customer.xml",
+        "dev.properties",
+        "dev.secure.properties",
+        "global-error-handler.xml",
+        "log4j2.xml",
+        "qa.properties",
+        "qa.secure.properties"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
